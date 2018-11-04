@@ -1107,7 +1107,7 @@ pre .javascript .function {
   bottom: 30px;
 }
 .header {
-  background: url("D:\MyBlog\source\image\background.jpg");
+  background: url("$head-bg");
 }
 .header-inner {
   position: relative;
@@ -1952,7 +1952,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9f6a54;
+  background: #d91abb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3076,6 +3076,5 @@ ul.breadcrumb li+li:last-child {
 body {
   background: url("/images/background.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
+  background-size: 100%;
 }
